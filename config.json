@@ -1,0 +1,13 @@
+{
+	"db": {
+		"db_host":"localhost",
+		"db_user":"user_ci",
+		"db_pass":"1234",
+		"db_name":"fisrt_test"
+	},
+
+	"host":"0.0.0.0",
+	"port":"8383",
+	"debug":"True",
+	"secret":"dd"
+}
