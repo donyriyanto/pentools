@@ -35,7 +35,7 @@ $ python manage.py run
 ## Basic api
 
 ### Create New User
-[POST] http:localhost:8383/users/create_user
+[POST] http://localhost:8383/users/create_user
 
 ```json
 {
