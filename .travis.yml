@@ -1,0 +1,21 @@
+{
+  "language": "python",
+  "python": "2.7",
+  "install": [
+    "pip install .",
+    "pip install -r requirements.txt"
+  ],
+  "services": [
+    "mysql"
+  ],
+  "before_install": [
+    "mysql -uroot -e \"grant all on fisrt_test.* to user_ci@localhost identified by '1234'\"",
+    "mysql -uroot -e \"drop database if exists fisrt_test\"",
+    "mysql -uroot -e \"create database fisrt_test\""
+  ],
+  "script": "python manage.py run",
+  "group": "stable",
+  "dist": "trusty",
+  "os": "linux"
+}
+
