@@ -1,4 +1,4 @@
-# Pentools (Python Engine Tools)
+# Pentools (Python Engine Tools) [![Build Status](https://api.travis-ci.org/derymukti/pentools.svg?branch=master)](https://travis-ci.org/derymukti/pentools)
 
 ## How to Use
 ```bash
