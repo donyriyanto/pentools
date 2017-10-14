@@ -12,7 +12,7 @@
     "mysql -uroot -e \"drop database if exists fisrt_test\"",
     "mysql -uroot -e \"create database fisrt_test\""
   ],
-  "script": "python manage.py run",
+  "script": "python manage.py test",
   "group": "stable",
   "dist": "trusty",
   "os": "linux"
