@@ -24,7 +24,7 @@
   ],
   "script": [
     "python manage.py test",
-    "py.test --cov=./"
+    "py.test --cov=/home/travis/build/derymukti/pentools"
   ],
   "group": "stable",
   "dist": "trusty",
