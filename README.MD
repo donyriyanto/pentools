@@ -3,7 +3,7 @@
 [![Build Status](https://api.travis-ci.org/derymukti/pentools.svg?branch=master)](https://travis-ci.org/derymukti/pentools) [![codecov](https://codecov.io/gh/derymukti/pentools/branch/master/graph/badge.svg)](https://codecov.io/gh/derymukti/pentools)
 ## How to Use
 ```bash
-$ git clone git@github.com:derymukti/pentools.git
+$ git clone https://github.com/derymukti/pentools.git
 ```
 ```bash
 $ cd pentools
