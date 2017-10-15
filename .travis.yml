@@ -11,7 +11,9 @@
       "packages": [
         "python-requests",
         "python-coverage",
-        "python-mock"
+        "python-mock",
+        "python-dev",
+        "libmysqlclient-dev"
       ]
     ]
   ],
