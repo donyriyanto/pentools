@@ -26,6 +26,7 @@
     "mysql -uroot -e \"create database fisrt_test\""
   ],
   "script": [
+    "coverage run manage.py test",
     "coverage run manage.py create:module -n users",
     "coverage run manage.py init_db"
   ],
