@@ -3,4 +3,4 @@ flask_script
 Jinja2
 termcolor
 flask_sqlalchemy
-MySQL-python
+mysql-connector==2.1.4
