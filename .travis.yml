@@ -4,7 +4,8 @@
   "install": [
     "pip install -r requirements.txt",
     "pip install codecov",
-    "pip install pytest-cov"
+    "pip install pytest-cov",
+    "pip install mysql-connector-python"
   ],
   "addons": [
     "apt": [
