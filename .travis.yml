@@ -2,7 +2,17 @@
   "language": "python",
   "python": "2.7",
   "install": [
-    "pip install -r requirements.txt"
+    "pip install -r requirements.txt",
+    "pip install codecov"
+  ],
+  "addons": [
+    "apt": [
+      "packages": [
+        "python-requests",
+        "python-coverage",
+        "python-mock"
+      ]
+    ]
   ],
   "services": [
     "mysql"
@@ -12,9 +22,15 @@
     "mysql -uroot -e \"drop database if exists fisrt_test\"",
     "mysql -uroot -e \"create database fisrt_test\""
   ],
-  "script": "python manage.py test",
+  "script": [
+    "python manage.py test",
+    "py.test --cov=./"
+  ],
   "group": "stable",
   "dist": "trusty",
-  "os": "linux"
+  "os": "linux",
+  "after_success": [
+    "codecov"
+  ]
 }
 
