@@ -27,8 +27,7 @@
   ],
   "script": [
     "coverage run manage.py test",
-    "coverage run manage.py create:module -n users",
-    "coverage run manage.py init_db"
+    "coverage run manage.py create:module -n users"
   ],
   "group": "stable",
   "dist": "trusty",
