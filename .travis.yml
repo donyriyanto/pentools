@@ -3,7 +3,8 @@
   "python": "2.7",
   "install": [
     "pip install -r requirements.txt",
-    "pip install codecov"
+    "pip install codecov",
+    "pip install pytest-cov"
   ],
   "addons": [
     "apt": [
@@ -24,7 +25,7 @@
   ],
   "script": [
     "python manage.py test",
-    "py.test --cov=/home/travis/build/derymukti/pentools"
+    "py.test --cov=./"
   ],
   "group": "stable",
   "dist": "trusty",
