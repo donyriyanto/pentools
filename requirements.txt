@@ -3,3 +3,4 @@ flask_script
 Jinja2
 termcolor
 flask_sqlalchemy
+MySQL-python
